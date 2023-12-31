@@ -24,7 +24,6 @@ class NoteDetailsActivity : AppCompatActivity() {
         setContentView(R.layout.activity_note_details)
         supportActionBar!!.setDisplayHomeAsUpEnabled(true)
 
-
         initViews()
         fetchData()
         updateNoteButton.setOnClickListener {
